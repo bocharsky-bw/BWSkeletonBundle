@@ -18,7 +18,6 @@ Include
 Including the bundle to your `Symfony` project is as easy as to do a few simple steps.
 
 1) Enable the bundle in application kernel for `prod` environment:
-
 ``` php
 <?php
 // app/AppKernel.php
@@ -30,6 +29,7 @@ public function registerBundles()
         new BW\SkeletonBundle\BWSkeletonBundle(),
     );
 }
+
 ```
 
 2) Add few parameters used in the skeleton templates 
@@ -43,6 +43,7 @@ parameters:
     title_suffix: ~
     description_prefix: ~
     description_suffix: ~
+
 ```
 
 3) Import config resource to passed parameters to the skeleton templates as global twig variables:
@@ -50,15 +51,16 @@ parameters:
 # app/config/config.yml
 imports:
     - { resource: "@BWSkeletonBundle/Resources/config/config.yml" }
+
 ```
 
 4) Register the bundle's routes for `dev` environment *(optional, if you want to see examples)*:
-
 ``` yaml
 # app/config/routing_dev.yml
 _bw_skeleton_bundle:
     resource: "@BWSkeletonBundle/Resources/config/routing.yml"
     prefix:   /_bw
+
 ```
 
 Congratulations!
