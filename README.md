@@ -3,7 +3,7 @@ SkeletonBundle
 
 The HTML markup skeleton of base templates for Symfony Framework
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/cb900935-8444-496a-8a97-8af04fad1aba/big.png)](https://insight.sensiolabs.com/projects/cb900935-8444-496a-8a97-8af04fad1aba)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/cb900935-8444-496a-8a97-8af04fad1aba/mini.png)](https://insight.sensiolabs.com/projects/cb900935-8444-496a-8a97-8af04fad1aba)
 
 Install
 -------
@@ -47,7 +47,7 @@ parameters:
     title_suffix: ~
     description_prefix: ~
     description_suffix: ~
-
+    
 ```
 
 3) Import config resource to passed parameters to the skeleton templates as global twig variables:
@@ -56,7 +56,7 @@ parameters:
 # app/config/config.yml
 imports:
     - { resource: "@BWSkeletonBundle/Resources/config/config.yml" }
-
+    
 ```
 
 4) Register the bundle's routes for `dev` environment *(optional, if you want to see examples)*:
@@ -66,7 +66,7 @@ imports:
 _bw_skeleton_bundle:
     resource: "@BWSkeletonBundle/Resources/config/routing.yml"
     prefix:   /_bw
-
+    
 ```
 
 Congratulations!
