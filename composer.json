@@ -1,0 +1,20 @@
+{
+    "name": "bocharsky-bw/skeleton-bundle",
+    "description": "The HTML markup skeleton of base templates for Symfony Framework",
+    "keywords": ["bw", "skeleton", "template", "markup", "bundle"],
+    "homepage": "https://github.com/bocharsky-bw/SkeletonBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "victor",
+            "email": "bocharsky.bw@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.0",
+        "twig/twig": "~1"
+    },
+    "autoload": {
+        "psr-4": {"BW\\SkeletonBundle\\": ""}
+    }
+}
