@@ -32,9 +32,11 @@ public function registerBundles()
 }
 ```
 
-2) Add few parameters used in the skeleton templates:
+2) Add few parameters used in the skeleton templates 
+*(You should to add this parameters in both `parameters.yml` and `parameters.yml.dist` files in `app/config` folder)*:
 ``` yaml
 # app/config/parameters.yml
+# app/config/parameters.yml.dist
 parameters:
     locale: ru
     title_prefix: ~
