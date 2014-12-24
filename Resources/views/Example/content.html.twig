@@ -1,0 +1,20 @@
+{% extends 'BWSkeletonBundle:Frontend:content.html.twig' %}
+
+{% block css %}
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+{% endblock %}
+
+{% block js %}
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block article_wrap %}
+    <h1>Example</h1>
+    <p>
+        Extends <abbr title="{{ _self.templateName }}">"content.html.twig"</abbr> template
+    </p>
+{% endblock %}
