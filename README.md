@@ -5,6 +5,10 @@ The HTML markup skeleton of base templates for Symfony Framework
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/cb900935-8444-496a-8a97-8af04fad1aba/mini.png)](https://insight.sensiolabs.com/projects/cb900935-8444-496a-8a97-8af04fad1aba)
 
+This bundle no more maintained
+------------------------------
+The development has moved to a new [repository](https://github.com/LapaLabs/SkeletonBundle).
+
 Install
 -------
 
